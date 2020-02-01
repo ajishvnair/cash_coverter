@@ -1,0 +1,26 @@
+.currencySelector-main{
+    border-radius: 7px;
+    padding: 20px 20px 20px 20px;
+    background-color: #fafafa;
+}
+.currencySelector-text{
+    padding:10px 10px 10px 10px;
+}
+.currencySelector-Switches-text{
+    padding:30px 10px 10px 10px;
+}
+.currencySelector-selectall{
+    padding-right:10px;
+}
+.currencySelector-Switches{
+    text-align: right;
+    padding-top: 30px;
+}
+@media(max-width:900px){
+    .currencySelector-text{
+        width:150px;
+    }
+    .currencySelector-selectall{
+        width:100px
+    }
+}

@@ -1,0 +1,18 @@
+@import './components/header.css';
+@import './components//currencySelector.css';
+@import './components//themeCustomisation.css';
+@import './components//displayBox.css';
+@import './components/priceDisplayOption.css';
+@import './components//integrateBox.css';
+
+.Main-div{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f5f5f5;
+}
+@media(min-width:1000px){
+    .Main-div{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
